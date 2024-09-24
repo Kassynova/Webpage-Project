@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif ;
+    font-weight: 300;
+    font-style: normal;
+ }
+ .header{
+    background-color: #047AED;
+    color: white;
+    height: 450px;
+    
+}
+.header h2{
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+.navbar{
+    box-sizing: border-box;
+    display: block;
+}
+.name{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.name a{
+   text-decoration: none;
+   
+   color: #F4F4F4;
+  
+}
+.nav-bar {
+    padding-right: 40px;
+    margin: 10px 15px;
+   text-align: right;
+   
+}
+
+.nav-bar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 3px;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+.doc-icon img{
+    float: right;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+.doc-icon h1{
+    font-size: 64px;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+
+}
+.doc-icon text{
+    margin-right:60px ;
+}
+.doc-icon p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 40px;
+}
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.essentials  {
+    background-color: #F4F4F4;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 20%;
+    height: 400px;
+    line-height: 1.4; 
+
+}
+.first{
+    color: #047AED;
+}
+.essentials h3 {
+      font-size: 19px;
+      font-weight: 400;
+      padding-top: 10px;
+      padding-bottom: 20px;
+}
+.essentials li{
+    font-size: 17px;
+    list-style-type: none;
+    line-height: 2;
+}
+.essentials li:hover {
+    cursor: pointer;
+    color: #047AED;
+}
+.installation{
+    background-color: #f1eded;
+    padding: 20px;
+    width:50%;
+    line-height: 2;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.installation h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+ .installation p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+ }
+
+.info{
+    background-color: #5CB85C;
+    height: 50px;
+    padding-top: 15px;
+    color: #F4F4F4;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.info i{
+padding-right: 15px;
+}
+
+.link a {
+    
+    text-decoration: none;
+    padding-bottom: 50px;
+    color: #047AED;
+}
+footer {
+    background-color: #08203A;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+    margin-top: 70px;
+    
+}
+.footer-text{
+    padding-left: 18px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    font-size: 16px ;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+.footer-container h2 {
+    margin: 3px 0;
+    font-size: 32px ;
+    font-weight: 200;
+    margin-left: 15px;
+}
+
+.footer-nav {
+    margin: 10px 15px;
+    line-height: 70px;
+}
+
+.footer-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 3px;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.fa-brands{
+  margin: 0 20px;
+  margin-top: 10px;
+  text-align: right;
+ 
+}
+.fa-github{
+    font-size: 32px;
+}
+.fa-facebook{
+    font-size: 32px;
+}
+.fa-twitter{
+    font-size: 32px;
+}
+.fa-square-instagram{
+    font-size: 32px;
+}
